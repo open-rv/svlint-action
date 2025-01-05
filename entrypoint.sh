@@ -18,4 +18,4 @@ else
   svlint="svlint-$ruleset"
 fi
 
-$svlint --github-actions $files $filelists
+$svlint --github-actions $files $filelists --ignore-include
